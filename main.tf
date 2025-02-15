@@ -27,7 +27,7 @@ resource "google_storage_bucket" "mybucket" {
 
   labels = {
     environment = "student-lab"
-    
+    managed_by = "terraform"
   }
 }
 
